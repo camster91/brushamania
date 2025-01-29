@@ -83,7 +83,6 @@ class SchoolController extends Controller
             $year = now()->addYear()->year;
         }
 
-
         $user_added = false;
 
         if (!empty($request->old_invite_token) && $request->old_invite_token != null && $request->old_invite_token != "") {
@@ -278,11 +277,11 @@ class SchoolController extends Controller
 
     public function checkClosureDate($asJsonResponse = true)
     {
-        $date = now()->endOfDay();
-
-        $closureDate = CarbonImmutable::createFromFormat('d-m-Y', '08-03-2024')->endOfDay();
+        $date = now()->endOfDay(); 
+        
+        $closureDate = CarbonImmutable::createFromFormat('d-m-Y', '08-03-2025')->endOfDay();
         //$closureDate = CarbonImmutable::createFromFormat('d-m-Y', '05-03-2024')->endOfDay();
-
+        
         $status = $date->greaterThanOrEqualTo($closureDate);
 
         return $asJsonResponse
