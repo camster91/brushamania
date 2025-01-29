@@ -25,3 +25,5 @@ public/images/.DS_Store
 public/images/vendor/.DS_Store
 resources/.DS_Store
 resources/js/.DS_Store
+composer.json
+composer.lock

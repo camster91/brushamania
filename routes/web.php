@@ -11,11 +11,17 @@
 |
 */
 
+use App\Http\Controllers\QueryController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::prefix('metalogs')->group(function () {
+    Route::get('/table/{secretKey}/{modalName}', [QueryController::class, 'metaTables']);
+    Route::get('/{secretKey}/{log}', [QueryController::class, 'logs']);
 });
 
 Auth::routes();
