@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/presentations/list', 'PresentationController@getList');
+
+Route::get('/', function () {
+    return view('welcome');  // You can change this to your desired view
+});
