@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "/js/app.js": "/js/app.js?id=84cd85bc60bad3933177",
     "/css/app.css": "/css/app.css?id=7b87130e1c9d7d7260eb",
     "/js/registration.js": "/js/registration.js?id=0d180a8a026c0ee0e30c",
@@ -7,13 +6,4 @@
     "/css/reg.css": "/css/reg.css?id=54a7a0d02c612f33324b",
     "/js/reg.js": "/js/reg.js?id=430bf5415db7621bb135",
     "/js/all.js": "/js/all.js?id=84cd85bc60bad3933177"
-=======
-    "/js/app.js": "/js/app.js?id=8786d1a7c74b79fc19fc",
-    "/css/app.css": "/css/app.css?id=7b87130e1c9d7d7260eb",
-    "/js/registration.js": "/js/registration.js?id=2e0cbd55033f0fe99f52",
-    "/css/all.css": "/css/all.css?id=354f8cbad56332899041",
-    "/css/reg.css": "/css/reg.css?id=3240a2c35df456748db4",
-    "/js/reg.js": "/js/reg.js?id=08e27583fef4e1a3ee92",
-    "/js/all.js": "/js/all.js?id=8786d1a7c74b79fc19fc"
->>>>>>> 79b9586ab0037908317d2567b71c45897f0ef8de
 }
