@@ -13,7 +13,7 @@ class AdminSeeder extends Seeder
     public function run()
     {
         $user = new User();
-        $user->email = "cameron@ashbi.ca";
+        $user->email = "cameronadmin@ashbi.ca";
         $user->password = bcrypt('12345678');
         $user->role = 'admin';
         $user->firstname = "Cameron";
